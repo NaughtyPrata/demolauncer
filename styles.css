@@ -14,7 +14,7 @@ body {
 
 /* Top Navigation */
 .top-nav {
-    background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+    background: #000000;
     color: white;
     padding: 1rem 0;
     position: sticky;
@@ -36,18 +36,11 @@ body {
 .logo {
     display: flex;
     align-items: center;
-    gap: 1rem;
 }
 
 .logo-image {
     height: 40px;
     width: auto;
-}
-
-.logo .subtitle {
-    font-size: 0.9rem;
-    opacity: 0.9;
-    font-weight: 300;
 }
 
 .nav-actions {
@@ -76,6 +69,14 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
+}
+
+.page-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #f0f6fc;
+    margin-bottom: 2rem;
+    text-align: left;
 }
 
 .cards-container {
@@ -192,6 +193,10 @@ body {
 }
 
 @media (max-width: 480px) {
+    .page-title {
+        font-size: 2rem;
+    }
+    
     .project-title {
         font-size: 1.1rem;
     }
